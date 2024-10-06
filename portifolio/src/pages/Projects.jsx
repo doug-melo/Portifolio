@@ -30,7 +30,7 @@ function Project() {
                 placeholder="Projeto especifico"
             />
         <ContainerProject>
-                <section className="flex flex-row justify-evenly flex-wrap min-h-[545px] h-full sm:h-[545px] md:h-[545px] lg:h-[546px] xl:h-[546px] mt-10">
+                <section className="flex flex-row justify-evenly flex-wrap min-h-[545px] h-full sm:h-[545px] md:h-[545px] lg:h-[546px] xl:h-[546px] xl mt-10">
                         {
                             ProjetosFiltrados.length > 0 ?
 

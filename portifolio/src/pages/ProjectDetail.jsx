@@ -13,7 +13,7 @@ function ProjectDetail() {
                 Projetos.repositories
                     .filter((project) => project.name === id)
                     .map((project) => (
-                        <div className="text-black content-center mt-12 min-h-[667px] h-full sm:h-[715px] md:h-[715px] lg:h-[815px] xl:h-[950px]" key={project.name}>
+                        <div className="text-black content-center mt-12 min-h-[667px] h-full sm:h-[715px] md:h-[715px] lg:h-[815px] xl:h-[950px] 2xl:h-[1200px]" key={project.name}>
                             <h1 className="text-5xl text-center font-bold text-black">{project.name}</h1>
                             <div className="flex mt-2 flex-col gap-10 h-3/4 items-center">
                                 <p className=" text-black w-4/5 text-center">{project.description}</p>
