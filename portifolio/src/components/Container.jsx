@@ -1,6 +1,6 @@
-import { Children } from "react";
 
-function Container({children, cor}) {
+
+function Container({children}) {
     return ( 
     <div className="w-4/5 mx-auto my-0">
         {children}

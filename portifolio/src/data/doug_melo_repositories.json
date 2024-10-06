@@ -1,0 +1,36 @@
+{
+    "repositories": [
+        {
+            "name": "Portifolio",
+            "description": "O CP2 é um portfólio desenvolvido com a biblioteca React.",
+            "language": "React",
+            "fork": false,
+            "image": "portifolio.png",
+            "link": "https://github.com/doug-melo/Test-Project"
+        },
+        {
+            "name": "CP-1",
+            "description": "Primeiro CP em React",
+            "language": "React",
+            "fork": true,
+            "image": "cp1.png",
+            "link": "https://github.com/doug-melo/fiap-react-checkpoint-1"
+        },
+        {
+            "name": "Portal-filmes",
+            "description": "Projeto de Portal de Filmes utilizado com as turmas de 2\u00ba Semestre de Engenharia de Software da FIAP",
+            "language": "JavaScript",
+            "fork": true,
+            "image": "portal_filmes.png",
+            "link": "https://github.com/doug-melo/Portal-filmes"
+        },
+        {
+            "name": "race4green",
+            "description": "Challenge FIAP 2024",
+            "language": "TypeScript",
+            "fork": true,
+            "image": "race4green.png",
+            "link": "https://github.com/doug-melo/race4green"
+        }
+    ]
+}
