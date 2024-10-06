@@ -3,7 +3,7 @@ import { useState } from "react";
 import Footer from "../components/Footer";
 import ProjectCard from "../components/ProjectCard";
 import Projetos from "../data/doug_melo_repositories.json";
-import Container from "../components/Container";
+import ContainerProject from "../components/ContainerProject";
 
 function Project() {
 
@@ -29,8 +29,8 @@ function Project() {
                 onChange={handleSearch}
                 placeholder="Projeto especifico"
             />
-        <Container>
-                <section className="flex flex-row justify-evenly flex-wrap mb-80 mt-8">
+        <ContainerProject>
+                <section className="flex flex-row justify-evenly flex-wrap min-h-[545px] h-full sm:h-[545px] md:h-[545px] lg:h-[546px] xl:h-[546px] mt-10">
                         {
                             ProjetosFiltrados.length > 0 ?
 
@@ -42,7 +42,7 @@ function Project() {
                             <p className="text-center m-10 font-bold text-2xl mb-32 mt-4">Este projeto não existe</p>
                         }
                 </section>
-        </Container>
+        </ContainerProject>
 
         </div>
         <Footer/>
