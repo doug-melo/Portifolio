@@ -5,7 +5,6 @@ import Footer from '../components/Footer';
 import Card from '../components/Card';
 import { FaPython, FaJava, FaReact, FaCss3, FaHtml5,  } from 'react-icons/fa';
 import { SiCsharp } from "react-icons/si";
-
 import TailWind from '../../public/tailwind-svgrepo-com.svg'
 import SQLite from '../../public/sqlite-svgrepo-com.svg'
 import Canva from '../../public/canva-icon.svg'

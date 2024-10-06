@@ -1,5 +1,4 @@
 import Footer from "../components/Footer";
-import Network from "../components/Network";
 import { useState } from "react";
 function Contact() {
 
